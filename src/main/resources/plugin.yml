@@ -1,0 +1,23 @@
+name: NyarukosPluginCollection
+version: '${project.version}'
+main: me.nyaruko166.nyarukosplugincollection.NyarukosPluginCollection
+api-version: '1.20'
+permissions:
+  nyaruko166.command:
+    description: Perms node for Nyaruko166
+    default: op
+commands:
+  checkupdate:
+    permission: nyaruko166.command
+    description: Command to check for plugin update.
+    usage: /checkupdate
+    aliases: cu
+  chat:
+    permission: nyaruko166.command
+    description: Repeat chat.
+    usage: /chat
+    aliases: c
+  checkscore:
+    description: Kiểm tra bảng vàng.
+    usage: /checkscore
+    aliases: ck
