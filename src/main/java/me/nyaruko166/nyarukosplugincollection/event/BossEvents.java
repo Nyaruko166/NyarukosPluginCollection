@@ -53,8 +53,8 @@ public class BossEvents implements Listener {
                     Bukkit.broadcastMessage(ChatColor.RED + "Thống kê sát thương");
                     Bukkit.broadcastMessage(ChatColor.GOLD + "Số sát thương " + x + " đã gây ra: " + dmgMap.get(x));
                     jsonStorageMap.writeToJson(dmgMap, "dmgMap");
-                    dmgMap.clear();
                 }
+                dmgMap.clear();
             }
         }
     }
